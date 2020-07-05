@@ -1,4 +1,5 @@
 
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -251,9 +252,11 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+
 /*
 /* Typography 
 ====================================================================== */
+
 div,
 dl,
 dt,
@@ -373,6 +376,7 @@ p a:visited {
 /* 
 /* Media 
 /* =================================================================== */
+
 img,
 video,
 embed,
@@ -393,25 +397,18 @@ img {
 /* 
 /* Grid
 ===================================================================== */
+
 .row {
 	width: 94%;
-	max-width: 1024px;
+	max-width: 1140px;
 	margin: 0 auto;
-}
-
-.ie8 .row {
-	width: 1024px;
-}
-
-.narrow .row {
-	max-width: 980px;
 }
 
 .row .row {
 	width: auto;
 	max-width: none;
-	margin-left: -18px;
-	margin-right: -18px;
+	margin-left: -20px;
+	margin-right: -20px;
 }
 
 .row:before,
@@ -428,9 +425,13 @@ img {
 .columns,
 .bgrid {
 	position: relative;
-	padding: 0 18px;
 	min-height: 1px;
 	float: left;
+}
+
+.column,
+.columns {
+	padding: 0 20px;
 }
 
 .column.centered,
@@ -513,6 +514,21 @@ img {
 	width: 100%;
 }
 
+/* small screens
+--------------------------------------------------------------- */
+@media screen and (max-width:1024px) {
+	.row .row {
+		margin-left: -18px;
+		margin-right: -18px;
+	}
+
+	.column,
+	.columns {
+		padding: 0 18px;
+	}
+
+}
+
 /* tablets
 --------------------------------------------------------------- */
 @media screen and (max-width:768px) {
@@ -566,7 +582,7 @@ img {
 
 }
 
-/* mobile
+/* large mobile devices
 --------------------------------------------------------------- */
 @media screen and (max-width:600px) {
 	.row {
@@ -637,15 +653,6 @@ img {
 
 }
 
-/* larger screens
---------------------------------------------------------------- */
-@media screen and (min-width:1200px) {
-	.wide .wrap {
-		max-width: 1180px;
-	}
-
-}
-
 /* 
 /* block grids
 ===================================================================== */
@@ -672,11 +679,6 @@ img {
 /* Clearing for block grid columns. Allows columns with 
 different heights to align properly.
 --------------------------------------------------------------------- */
-.first {
-	clear: both;
-}
-
-/* first column in large(default) screen - for IE8 */
 .bgrid-sixth .bgrid:nth-child(6n+1),
 .bgrid-fourth .bgrid:nth-child(4n+1),
 .bgrid-third .bgrid:nth-child(3n+1),
@@ -684,9 +686,9 @@ different heights to align properly.
 	clear: both;
 }
 
-/* smaller screens
+/* small screens
 --------------------------------------------------------------- */
-@media screen and (max-width:900px) {
+@media screen and (max-width:1024px) {
 
 	/* block grids for small screens */
 	.s-bgrid-sixth .bgrid {
@@ -710,7 +712,6 @@ different heights to align properly.
 		clear: both;
 	}
 
-	.first,
 	[class*="bgrid-"] .bgrid:nth-child(n) {
 		clear: none;
 	}
@@ -748,7 +749,6 @@ different heights to align properly.
 		clear: both;
 	}
 
-	.first,
 	[class*="tab-bgrid-"] .bgrid:nth-child(n) {
 		clear: none;
 	}
@@ -786,7 +786,6 @@ different heights to align properly.
 		clear: both;
 	}
 
-	.first,
 	[class*="mob-bgrid-"] .bgrid:nth-child(n) {
 		clear: none;
 	}
