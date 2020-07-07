@@ -26,12 +26,13 @@ body {
 }
 .masonry {
   columns: 1;
-  column-gap: 10px;
+  column-gap: 20px;
+  padding: 6px;
 }
 .masonry-item {
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
     columns: 2;
@@ -63,8 +64,8 @@ body {
   margin: 0;
 }
 .masonry-title {
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
   padding: 1rem 1.5rem;
 
 }
@@ -72,6 +73,6 @@ body {
 
 .masonry-description {
   padding: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   border-top: 1px solid rgba(0, 0, 0, .05);
 }

@@ -1,29 +1,4 @@
-/* =================================================================== */
-/*
-/*  KREO v1.0 Main Stylesheet
-/*  url: styleshout.com
-/*  10-12-2015
-/*
-/*	 TOC:
-/*  01. =webfonts and iconfonts
-/*  02. =document setup
-/*  03. =preloader
-/*  04. =forms
-/*  05. =theme common styles
-/*  06. =header styles
-/*  07. =hero section
-/*  08. =portfolio styles
-/*  09. =services
-/*  10. =about
-/*  11. =testimonials
-/*  12. =contact
-/*  13. =footer
-/*
-/* =================================================================== */
 
-/** 
-/* 01. =webfonts and iconfonts
-/* =================================================================== */
 
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
@@ -574,7 +549,7 @@ hr {
 }
 
 .section-head h1 span {
-	color: #fdc501;
+	color: #c70102;
 	position: relative;
 	left: 3px;
 }
@@ -856,7 +831,7 @@ ul#nav li.current a:after {
 		top: 50%;
 		bottom: auto;
 		left: auto;
-		background: #fdc501;
+		background: #c70102;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		-webkit-transition: all 0.3s ease-in-out;
@@ -929,7 +904,7 @@ ul#nav li.current a:after {
 
 	#nav-wrap ul#nav li.current > a {
 		background: none;
-		color: #fdc501;
+		color: #c70102;
 	}
 
 	#nav-wrap ul#nav li.current > a:after {
