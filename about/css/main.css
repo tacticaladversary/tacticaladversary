@@ -555,7 +555,7 @@ hr {
 }
 
 .section-head p {
-	font: 18px/36px "merriweather-light", serif;
+	font: 20px/36px "merriweather-light", serif;
 	width: 95%;
 }
 
@@ -644,10 +644,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 114px;
-	height: 66px;
+	width: 72px;
+	height: 70px;
 	background: url("../images/logoK@2x.png") no-repeat center;
-	background-size: 80px 55px;
+	background-size: 65px 70px;
 }
 
 /* header social */
@@ -2455,10 +2455,10 @@ footer .info {
 }
 
 footer .footer-logo {
-	width: 100px;
-	height: 56px;
+	width: 120px;
+	height: 120px;
 	background: url("../images/logoW@2x.png") no-repeat center;
-	background-size: 80px 55px;
+	background-size: 113px 120px;
 	margin: 0 auto 21px;
 	display: block;
 	filter: alpha(opacity=10);
