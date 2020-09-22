@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://tacticaladversary.io/</loc>
+	<lastmod>2020-09-22T14:03:55+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/blog/</loc>
+	<lastmod>2020-09-22T14:03:58+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/podcast/</loc>
+	<lastmod>2020-09-22T14:03:58+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/webcast/</loc>
+	<lastmod>2020-09-22T14:03:58+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/webcast/Red-Team-Village-c0c0n-2020-Village-kickoff-session.html</loc>
+	<lastmod>2020-09-22T14:03:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/webcast/Red-Team-Village-The-Diana-Initiative-Internal-Red-Team-Operations-Framework.html</loc>
+	<lastmod>2020-09-22T14:04:01+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/webcast/DEFCON-28-Safemode-DCG-Village-building-internal-red-team.html</loc>
+	<lastmod>2020-09-22T14:03:59+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/tactical-adversary/</loc>
+	<lastmod>2020-09-22T14:03:59+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/slides/DEFCON-28-Safemode-DCG-Village-Tactical-Adversary-building-internal-red-team.pdf</loc>
+	<lastmod>2020-09-22T14:03:59+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://tacticaladversary.io/slides/Abhijith-b-r-Diana-Initiative-Red-Team-Village-Aug2020-Tactical-Adversary-building-internal-red-team.pdf</loc>
+	<lastmod>2020-09-22T14:04:01+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
