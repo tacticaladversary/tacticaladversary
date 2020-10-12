@@ -1890,8 +1890,7 @@ ul#nav li.current a:after {
 /* Call To Action 
 ------------------------------------------------------------------ */
 #call-to-action {
-	margin-top: 30px;
-	padding-top: 36px;
+	padding-top: 20px;
 	text-align: center;
 }
 
@@ -2001,7 +2000,7 @@ ul#nav li.current a:after {
 #testimonials {
 	background: #900506;
 	padding-top: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	position: relative;
 	min-height: 198px;
 	width: 100%;
@@ -2596,7 +2595,4 @@ footer .social-links li:first-child {
 	position: relative;
 	right: -5px;
 }
-
-
-
 
