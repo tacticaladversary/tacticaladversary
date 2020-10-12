@@ -1793,7 +1793,7 @@ ul#nav li.current a:after {
 	position: relative;
 	line-height: 1;
 	overflow: hidden;
-	background: #FFFFFF;
+	
 }
 
 #team-wrapper .member-pic img {
